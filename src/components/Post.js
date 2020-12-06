@@ -1,12 +1,13 @@
 import React from 'react';
+import classes from './Newsfeed.module.css';
 import 'tachyons';
 const Post = ({ title, body, id }) => {
 	return (
-		<div className='tc bg-lightest-blue dib br3 pa2 ma2 mw8 grow'>
-			<img className='br-100 h5 w5'alt='post' src={`https://picsum.photos/200?random=${id}`}/>
+		<div className={classes.Wrapper}>
+			<img className={classes.Image}alt='post' src={`https://picsum.photos/200?random=${id}`}/>
 			<div>
-			<h2 className='blue mt0'>{title}</h2>
-			<p className='black-70 f6'>{body}</p>
+			<h2 className={classes.Title}>{title}</h2>
+			<p className={classes.Body}>{body}</p>
 			</div>
 		</div>
 	);

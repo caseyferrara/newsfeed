@@ -1,10 +1,11 @@
 import React from 'react';
+import classes from './Main.module.css';
 
 const SearchBox = ({ searchfield, searchChange }) => {
 	return (
 		<div className='pa3'>
 			<input 
-				className='pa3 ba br3 bg-lightest-blue'
+				className={classes.Search}
 				type='search'
 				placeholder='Search News Feed'
 				onChange={searchChange}

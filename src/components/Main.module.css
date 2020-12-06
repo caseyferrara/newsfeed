@@ -1,0 +1,66 @@
+.Main {
+	padding: 3px;
+}
+
+.TitleInput {
+	position: relative;
+	width: 100%;
+	max-width: 280px;
+	height: 53px;
+}
+
+.BodyInput {
+	position: relative;
+	margin-left: 15px;
+	width: 100%;
+	max-width: 560px;
+	height: 53px;
+}
+
+.Button {
+	position: relative;
+	margin-left: 15px;
+	max-width: 100px;
+	height: 50px;
+	cursor: pointer;
+	background-color: #2e2e2e;
+	border: 1px solid #404040;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.Search {
+	position: relative;
+	width: 100%;
+	max-width: 280px;
+	height: 53px;
+}
+
+
+.Ex .Hide {
+	display: none;
+	transition: all 0.5s ease;
+}
+
+.Inner {
+	padding: 10px;
+}
+
+.Ex input[type='checkbox']:checked
++ .Hide {
+	height: 150;
+	opacity: 150;
+	display: block;
+}
+
+.Input {
+	display: inline-block;
+  	background-color: #eee;
+  	cursor: pointer;
+  	margin-left: 5px;
+}
+
+.Label {
+	color: white;
+	font-size: x-large;
+}

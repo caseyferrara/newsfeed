@@ -1,0 +1,33 @@
+.Wrapper {
+	display: block;
+	background: linear-gradient(to right, #2e2e2e 0%, #404040 100%);;
+	text-align: center;
+	max-width: 60%;
+	border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+}
+
+.Image {
+	border-radius: 100%;
+	height: 250px;
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+	padding-top: 25px;
+}
+
+.Title {
+	color: #dedede;
+	margin-top: 0;
+}
+
+.Body {
+	color: white;
+	padding-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
