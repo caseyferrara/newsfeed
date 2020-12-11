@@ -9,6 +9,34 @@ h2 {
   font-size: 1rem;
 }
 
-label {
-  cursor: pointer;
+nav {
+	display: none;
+  	transition: 0.3s all ease;
+}
+
+nav.open {
+	display: block;
+	margin-top: 15px;
+}
+
+button {
+	height: 50px;
+	cursor: pointer;
+	background-color: #2e2e2e;
+	border: 1px solid #404040;
+	border-radius: 10px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+	background-color: #3e3e3e;
+}
+
+footer {
+	margin-top: 15px;
+	font-family: Roboto, sans-serif;
+  	font-size: 1rem;
+  	text-shadow: 1px 1px #000;
+  	color: white;
 }

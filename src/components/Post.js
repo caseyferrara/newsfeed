@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from './Newsfeed.module.css';
 import 'tachyons';
+
 const Post = ({ title, body, id }) => {
 	return (
 		<div className={classes.Wrapper}>
