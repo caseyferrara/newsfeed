@@ -4,4 +4,4 @@ A React web application that simulates a news feed. The user can search through 
 
 [LIVE DEMO](https://caseyferrara.github.io/newsfeed/)
 
-[!alt text](https://github.com/caseyferrara/newsfeed/blob/master/newsfeed.jpg)
+![newsfeed](https://github.com/caseyferrara/newsfeed/blob/master/newsfeed.jpg)
